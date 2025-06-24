@@ -1,0 +1,16 @@
+librosa
+numpy
+pandas
+scikit-learn
+matplotlib
+streamlit
+plotly
+streamlit-lottie
+sounddevice
+scipy
+seaborn
+resampy
+joblib
+tqdm
+pillow
+tensorflow-cpu
