@@ -59,8 +59,28 @@ pip install -r requirements.txt
 # Start Streamlit web app
 streamlit run app.py
 
-# Test the model
-python test_model.py
+# Test the model on audio files
+python test_model.py --test_dir /path/to/audio/files --model_path final_emotion_model.h5
+```
+
+### Testing the Model
+
+The `test_model.py` script allows you to evaluate the model on your own audio files:
+
+```bash
+python test_model.py --test_dir <audio_directory> [--model_path <model_file>] [--encoder_path <encoder_file>]
+```
+
+**Arguments:**
+
+- `--test_dir`: Directory containing audio files to test (required)
+- `--model_path`: Path to the model file (default: final_emotion_model.h5)
+- `--encoder_path`: Path to label encoder (default: label_encoder.pkl)
+
+**Example:**
+
+```bash
+python test_model.py --test_dir ./test_audio --model_path final_emotion_model.h5
 ```
 
 ### Project Structure
