@@ -13,4 +13,6 @@ resampy
 joblib
 tqdm
 pillow
-tensorflow-cpu
+tensorflow
+
+
