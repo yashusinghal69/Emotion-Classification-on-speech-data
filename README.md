@@ -6,6 +6,7 @@ A deep learning system that classifies human emotions from speech audio using Co
 
 **Supported Emotions:** Neutral, Calm, Happy, Sad, Angry, Fearful, Disgust, Surprised
 
+You can Download the Dataset from here : https://zenodo.org/records/1188976#.XCx-tc9KhQI
 ---
 
 ## Model Performance
